@@ -4,7 +4,7 @@ Created on Thu Feb 10 10:19:47 2022
 
 @author: sklad_2
 """
-    # Чтения токена и ID пользователя из файла псстрочно
+    # Чтения токена и ID пользователя из файла
 def get_my_token_id(file_name):
     with open(os.path.join(os.getcwd(), file_name), 'r') as reading_file:
         token = reading_file.readline().strip()
